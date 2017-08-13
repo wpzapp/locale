@@ -1,0 +1,38 @@
+{
+  "name": "wpzapp/locale",
+  "description": "Locale representation and utilities.",
+  "version": "1.0.0",
+  "type": "wpzapp-lib",
+  "license": "GPL-3.0",
+  "keywords": [
+    "wpzapp",
+    "wordpress",
+    "locale"
+  ],
+  "homepage": "https://wpzapp.org",
+  "authors": [
+    {
+      "name": "Felix Arntz",
+      "email": "felix-arntz@leaves-and-love.net",
+      "homepage": "https://leaves-and-love.net",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/wpzapp/locale/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPZAPP\\Locale\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "wpzapp/simple-values": "dev-master",
+    "wpzapp/installer": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.2.*",
+    "codeclimate/php-test-reporter": "dev-master"
+  }
+}
