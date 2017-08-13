@@ -34,5 +34,10 @@
   "require-dev": {
     "phpunit/phpunit": "6.2.*",
     "codeclimate/php-test-reporter": "dev-master"
+  },
+  "extra": {
+    "installer-paths": {
+      "vendor/{$vendor}/{$name}/": ["type:wpzapp-lib"]
+    }
   }
 }
